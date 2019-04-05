@@ -25,6 +25,11 @@
     <link href="css/freelancer.min.css" rel="stylesheet">
     <link href="css/mycss.css" rel="stylesheet">
 
+    <!-- Import di MathJS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/5.8.0/math.min.js"></script>
+    <script src="js/configMatrix.js"></script>
+    <script src="js/solverMatrix.js"></script>
+
   </head>
 
   <body id="page-top">
@@ -50,6 +55,9 @@
               </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#progetti">Progetti</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#solver">Solver</a>
             </li>
           </ul>
         </div>
@@ -361,6 +369,22 @@
         </section>
 </section>
 
+<section id="solver">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Solver</h2>
+            <hr class="star-dark mb-5">
+            <p id = "choose" align="center">Quale operazione con le matrici vuoi svolgere?
+              <script>
+                opzioni()
+                </script>
+            </p>
+            <div class="col-lg-12" align="center" id="configSolver">
+                 
+            </div>
+        </div>
+        
+    </section>
+</section>
 
     <!-- Footer -->
     <footer id="my-footer" class="footer text-center">
