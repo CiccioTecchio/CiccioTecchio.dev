@@ -41,7 +41,7 @@ function createSelect(){
     let t = document.createTextNode("Scegli numero di righe e colonne")
     opt.appendChild(t);
     select.appendChild(opt);
-    for(let i =1; i<=10; i++){
+    for(let i =2; i<7; i++){
         opt = document.createElement("option");
         opt.setAttribute("value", i)
         t = document.createTextNode(i);
@@ -50,11 +50,12 @@ function createSelect(){
     }
         select.addEventListener("change", function(){
             //text, select e br 
-            if(div.childNodes.length==3)
-            createMatrix(select.selectedIndex);
+            if(div.childNodes.length==3){
+            createMatrix(select.options[select.selectedIndex].value);
+            }
             else {
                 document.getElementById("mainSolver").remove();
-                createMatrix(select.selectedIndex);
+                createMatrix(select.options[select.selectedIndex].value);
             }
         })
         div.appendChild(select);
