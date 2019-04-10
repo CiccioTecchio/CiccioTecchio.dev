@@ -25,6 +25,11 @@
     <link href="css/freelancer.min.css" rel="stylesheet">
     <link href="css/mycss.css" rel="stylesheet">
 
+    <!-- Import di MathJS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/5.9.0/math.js"></script>
+    <script src="js/configMatrix.js"></script>
+    <script src="js/solverMatrix.js"></script>
+    <script src="js/printResult.js"></script>
   </head>
 
   <body id="page-top">
@@ -50,6 +55,9 @@
               </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#progetti">Progetti</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#solver">Solver</a>
             </li>
           </ul>
         </div>
@@ -333,7 +341,11 @@
                         <div class="card-body">
                           <h5 class="card-title" align="center">EvoCinema</h5>
                           <p class="card-text">In questo progetto insieme al mio collega <a href="https://github.com/fdavino">Ferdinando D'avino</a> ho fatto una esperienza di management coordinando un team di 12 ragazzi con lo scopo di realizzare la migrazione web di un vecchio progetto sviluppato in Java SE.</p>
-                          <a href="https://github.com/CiccioTecchio/evocinema" class="btn btn-primary" >Repository</a>
+                          <div class="row">
+                            <div class="col-md-12" align="center">
+                          <a href="https://github.com/CiccioTecchio/evocinema" class="btn btn-primary">Repository</a>
+                            </div>
+                        </div>
                         </div>
                       </div>
                     </div>
@@ -342,7 +354,11 @@
                         <div class="card-body">
                           <h5 class="card-title" align="center">BritishFanta</h5>
                           <p class="card-text">BritishFanta è una piattaforma web sviluppata come progetto per l'esame di Basi di Dati 2. Questa piattaforma si occupa di gestiore il fantacalcio della lega inglese dell'anno 2017/2018, è stat realizzata utilizzando MongoDB e Node.js.</p>
+                          <div class="row">
+                              <div class="col-md-12" align="center">
                           <a href="https://github.com/CiccioTecchio/BritishFanta" class="btn btn-primary">Repository</a>
+                              </div>
+                        </div>
                         </div>
                       </div>
                     </div>
@@ -351,16 +367,81 @@
                           <div class="card-body">
                             <h5 class="card-title" align="center">n-Body_MPI</h5>
                             <p class="card-text">Progetto sviluppato per l'esame di Programmazione Concorrente e Parallela su Cloud. In questo progetto &egrave stato parallelizzato uno script C che svolgeva la n-body simulation. Una volta parallelizzato il progetto è stato eseguito su un cluster AWS. </p>
-                            <a href="https://github.com/CiccioTecchio/n-Body_MPI" class="btn btn-primary">Repository</a>
+                              <div class="row">
+                                <div class="col-md-12" align="center">
+                              <a href="https://github.com/CiccioTecchio/n-Body_MPI" class="btn btn-primary">Repository</a>
+                                </div>
+                              </div>
                           </div>
                         </div>
                       </div>
+                  </div>
+
+                  <div class="row" style="padding-top: 1%">
+                    <div class="col-sm-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title" align="center">SharErasmus</h5>
+                          <p class="card-text">In questo progetto insieme al mio collega <a href="https://github.com/Alucard9994">Federico Vitale</a> ho fatto la mia seconda esperienza di management coordinando un team di 8 ragazzi con lo scopo di realizzare una piattaforma web per permettere ai coordinatori Erasmus di tenere traccia dei documenti e dello stato degli studenti che coordinano.</p>
+                          <div class="row">
+                            <div class="col-md-12" align="center">
+                              <a href="https://github.com/CiccioTecchio/SharErasmus" class="btn btn-primary">Repository</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title" align="center">YASPL 3.0</h5>
+                            <p class="card-text">YASPL è un altro semplice linguaggio di programmazione(Yet Another Simple Programming Language) questo progetto è stato realizzato per l'esame di Compilatori. Per il linguaggio YASPL3 è stato sviluppato solo il compilatore front-end realizzato utilizzando JavaCup. </p></br>
+                            <div class="row">
+                              <div class="col-md-12" align="center">
+                                <a href="https://github.com/CiccioTecchio/YASPL3.0" class="btn btn-primary">Repository</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title" align="center">CarEvent</h5>
+                              <p class="card-text">CarEvent è un app cross-platform sviluppata per l'esame di Enterprise Mobile Application Development in collaborazione con <a href="https://atos.net/it/italia">Atos</a>. Questa app realizzata in Ionic Cordova e Firebase permette ai manager e ai venditori di partecipare e avere informazioni riguardo i corsi di formazione da seguire.</p>
+                              <div class="row" style="visibility: hidden">
+                                  <div class="col-md-12" align="center">
+                                    <a class="btn btn-primary">Repository privato</a>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      
                   </div>
                 </div>
             </div>
         </section>
 </section>
 
+<section id="solver">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Solver</h2>
+            <hr class="star-dark mb-5">
+            <p id = "choose" align="center">Quale operazione con le matrici vuoi svolgere?
+              <script>
+                opzioni()
+                </script>
+            </p>
+            <div class="col-lg-12" align="center" id="configSolver">
+                 
+            </div>
+        </div>
+        
+    </section>
+</section>
 
     <!-- Footer -->
     <footer id="my-footer" class="footer text-center">
@@ -422,10 +503,6 @@
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
