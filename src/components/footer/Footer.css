@@ -1,4 +1,10 @@
 .footer-content{
   background-color: #c1666b;
   color: white;
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
