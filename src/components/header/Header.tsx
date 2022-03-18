@@ -4,9 +4,10 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import "./Header.css"
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
-
+import { Link } from 'react-router-dom'
 function Header(){
   const {t,i18n} = useTranslation();
+  
   return(
     <div className="row header-content">
       <div className="col-md-9">
@@ -18,8 +19,12 @@ function Header(){
       <div className="col-md-1">
         <h1><span className="lang" onClick={()=> i18n.changeLanguage("en")}>🇬🇧</span></h1>
       </div>
-      <div className="col-md-1">
-        <h1><span className='lang' title={t('header.download.cv')} > <FontAwesomeIcon icon={faFileDownload as IconProp} /> </span></h1>
+      <div className="col-md-1 mt-1">
+        <h1> 
+          <Link to="public/F-V_CV2021-3.pdf" className='link' target="_blank" download>
+            <FontAwesomeIcon icon={faFileDownload as IconProp} />
+          </Link>
+          </h1>
       </div>
     </div>
   )
