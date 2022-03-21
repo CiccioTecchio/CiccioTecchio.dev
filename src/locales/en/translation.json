@@ -1,5 +1,7 @@
 {
-  "welcome.label": "Welcome2222",
+  "welcome.title": "EN Probabilmente se sei qui vuol dire che o mi conosci e vuoi vedere come ho fatto il sito, o vuoi conoscermi",
+  "welcome.subtitle": "EN Bene, ecco quello che c'è da sapere ...",
+  "welcome.aboutme": "<p>EN Sono uno sviluppatore a cui piace sviluppare per lo più con linguaggi e/o framework front-end. Sto lavorando principalmente con Angular 2+ e ho sviluppato questo sito in React giusto per cambiare un pò.</p><p>Lavoro in NTT DATA a Napoli dal giugno 2020, questa è stata la mia prima esperienza lavorativa da informatico.</p><p>Prima di cominciare a lavora ho studiato Informatica presso l'Università degli Studi di Salerno dove ho conseguito Laurea Magistrale.</p><p>Attualmente gli argomenti che mi interessano di più sono le metodologie Agile, in particolare il framework Scrum, e lo sviluppo front-end cercando di non fossilizzarmi troppo sul codice ma cercando di curare anche la UI e la UX di ciò che sviluppo.</p>",
   "header.title": "Francesco Vicidomini",
   "header.download.cv": "Download CV"
 }

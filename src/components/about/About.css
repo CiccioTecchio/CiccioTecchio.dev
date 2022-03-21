@@ -1,4 +1,13 @@
+.resume{
+  text-align: center;
+}
 .about-content{
   background-color: #48a9a6;
   color: white;
+}
+
+.propic{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
