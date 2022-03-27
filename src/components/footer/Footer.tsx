@@ -4,6 +4,7 @@ import React from 'react';
 import "./Footer.css"
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { Link } from 'react-router-dom';
+import { Col, Row } from 'react-bootstrap';
 interface IFooterLink{
   id:string;
   link:string;
@@ -26,20 +27,12 @@ function Footer(){
   });
 
   return(
-  <footer className="footer-content text-center">
-        <div className="row">
-          <div className="col-md-12">
-            <ul className="list-inline mb-0">
-              {liList}
-            </ul>
-          </div>
-        </div>
-        <div className='row mt-2'>
-          <div className='col-md-12'>
-            <p style={{color : '#212529'}}>© Francesco Vicidomini</p>
-          </div>
-        </div>
-    </footer>
+    <Row className="text-center">
+      <Col>
+        <ul className="list-inline mb-0">{liList}</ul>
+        <p style={{color : '#212529'}} className='text-center'>© Francesco Vicidomini</p>
+      </Col>
+    </Row>
   )
 }
 
