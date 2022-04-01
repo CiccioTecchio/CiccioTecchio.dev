@@ -113,11 +113,11 @@ function Skills(){
   return(
     <div>
       <Row className= 'mt-3'>
-        <Col className= "text-center"><h1>Soft skills</h1></Col>
+        <Col className= "text-center"><h1>{t('skills.soft')}</h1></Col>
       </Row>
       <Row className= "mt-3">{renderRowCard(cardSoftSkills)}</Row>
       <Row className= 'mt-3'>
-        <Col className= "text-center"><h1>Code skills</h1></Col>
+        <Col className= "text-center"><h1>{t('skills.code')}</h1></Col>
       </Row>
       
         {renderRowCodeSkill(cardCodeSkills)}
