@@ -3,7 +3,6 @@ import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-
 import React from 'react';
 import "./Footer.css"
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
-import { Link } from 'react-router-dom';
 import { Col, Row } from 'react-bootstrap';
 interface IFooterLink{
   id:string;
@@ -20,9 +19,9 @@ function Footer(){
   
   let liList = listOfLink.map((link: IFooterLink) => {
   return <li key={link.id} className="list-inline-item">
-    <Link to={link.link} className="btn btn-social">
+    <a href={link.link} className="btn btn-social" target="_blank" rel="noreferrer">
       <FontAwesomeIcon icon={link.icon} size="lg"/>
-    </Link>
+    </a>
   </li>
   });
 
