@@ -20,11 +20,11 @@ function Header(){
         <h1><span className="lang" onClick={()=> i18n.changeLanguage("en")}>🇬🇧</span></h1>
       </div>
       <div className="col-md-1 mt-1">
-        <h1> 
-          <Link to="public/F-V_CV2021-3.pdf" className='link' target="_blank" download>
+        <h2> 
+          <Link to="public/F-V_CV2022.pdf" className='link' target="_blank" download>
             <FontAwesomeIcon icon={faFileDownload as IconProp} />
           </Link>
-          </h1>
+        </h2>
       </div>
     </div>
   )
