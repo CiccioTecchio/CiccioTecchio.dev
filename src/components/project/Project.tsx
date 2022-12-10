@@ -58,26 +58,10 @@ function Project(){
             <FontAwesomeIcon icon={faArrowCircleLeft as IconProp}/>
           </Button>
         </Col>
-        <Col md={5}>
-          <Card className='mt-3 h-100'>
-            <Card.Body className='text-center'>
-              <Card.Title><b>{projectList[idx].title}</b></Card.Title>
-              <Card.Text dangerouslySetInnerHTML={{__html:projectList[idx].description}} ></Card.Text>
-            </Card.Body>
-            {(projectList[idx].repository)?writeCardFooterForProject(projectList[idx].repository):<></>}
-          </Card>
-        </Col>
-        <Col md={5}>
-          <Card className='mt-3 h-100'>
-            <Card.Body className='text-center'>
-              <Card.Title><b>{projectList[idx+1].title}</b></Card.Title>
-              <Card.Text dangerouslySetInnerHTML={{__html:projectList[idx+1].description}} ></Card.Text>
-            </Card.Body>
-            {(projectList[idx+1].repository)?writeCardFooterForProject(projectList[idx+1].repository):<></>}
-          </Card>
-        </Col>
+        {writeProjectCard(projectList[idx])}
+        {writeProjectCard(projectList[idx+1])}
         <Col md={1} className='align-self-center'>
-          <Button variant='outline-secondary' size='lg' onClick={goNext} disabled={disableNext}>
+          <Button variant='outline-secondary' className="float-right" size='lg' onClick={goNext} disabled={disableNext}>
             <FontAwesomeIcon icon={faArrowCircleRight as IconProp}/>
             </Button>
         </Col>
@@ -86,8 +70,20 @@ function Project(){
   )
 }
 
+function writeProjectCard(project:IProject){
+  return <Col md={5}>
+    <Card className='mt-3 project-card'>
+      <Card.Body className='text-center'>
+        <Card.Title><b>{project.title}</b></Card.Title>
+        <Card.Text dangerouslySetInnerHTML={{__html:project.description}} ></Card.Text>
+      </Card.Body>
+        {(project.repository)?writeCardFooterForProject(project.repository):<></>}
+    </Card>
+  </Col>
+}
+
 function writeCardFooterForProject(repo:string|undefined){
-  return <Card.Footer className='text-center' style={{background: 'none', border: '0'}}>
+  return <Card.Footer className='mt-3 text-center' style={{background: 'none', border: '0'}}>
     <Button variant='primary' href={repo} target="_blank">Repository</Button>
   </Card.Footer>
 }
