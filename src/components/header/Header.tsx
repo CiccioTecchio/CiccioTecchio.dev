@@ -6,7 +6,7 @@ import "./Header.css"
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 function Header(){
-  const CV_NAME:string = 'F-V_CV2022.pdf';
+  const CV_NAME:string = 'F-V_CV2023.pdf';
   const {t,i18n} = useTranslation();
   const downloadCV = () => {
     fetch(CV_NAME).then(resp => {
