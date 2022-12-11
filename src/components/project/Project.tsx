@@ -72,7 +72,7 @@ function Project(){
 
 function writeProjectCard(project:IProject){
   return <Col md={5}>
-    <Card className='mt-3 project-card'>
+    <Card className='mt-3 h-100'>
       <Card.Body className='text-center'>
         <Card.Title><b>{project.title}</b></Card.Title>
         <Card.Text dangerouslySetInnerHTML={{__html:project.description}} ></Card.Text>
