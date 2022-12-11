@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from './components/header/Header'
 import About from './components/about/About'
 import Skills from './components/skills/Skills'
 import Project from './components/project/Project'
 import Footer from './components/footer/Footer'
 import "./App.css"
-import { Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowCircleUp } from '@fortawesome/free-solid-svg-icons';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 function App() {
+  const [showGoTop, setShowGoTop] = useState(false);
+  useEffect(() => {window.addEventListener('scroll', () => {if(window.scrollY > 300) setShowGoTop(true); else setShowGoTop(false);})}, [])
+  const scrollToTop = () => {window.scrollTo({top:0, behavior: 'smooth'})}
+  
   return (
-    <Container fluid>
+    <>
+      <Container fluid>
       <Row>
         <Col><Header /></Col>
       </Row>
@@ -25,6 +33,12 @@ function App() {
         <Col><Footer /></Col>
       </Row>
     </Container>
+    {showGoTop && (
+      <Button variant='info' onClick={scrollToTop} className="back-to-top">
+        <FontAwesomeIcon icon={faArrowCircleUp as IconProp} />
+      </Button>
+    )}
+    </>
   );
 }
 
