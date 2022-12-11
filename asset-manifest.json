@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/CiccioTecchio.io/static/css/main.a655c800.chunk.css",
-    "main.js": "/CiccioTecchio.io/static/js/main.56e7016c.chunk.js",
-    "main.js.map": "/CiccioTecchio.io/static/js/main.56e7016c.chunk.js.map",
-    "runtime-main.js": "/CiccioTecchio.io/static/js/runtime-main.481dd5ff.js",
-    "runtime-main.js.map": "/CiccioTecchio.io/static/js/runtime-main.481dd5ff.js.map",
-    "static/css/2.c4e73993.chunk.css": "/CiccioTecchio.io/static/css/2.c4e73993.chunk.css",
-    "static/js/2.a28c6330.chunk.js": "/CiccioTecchio.io/static/js/2.a28c6330.chunk.js",
-    "static/js/2.a28c6330.chunk.js.map": "/CiccioTecchio.io/static/js/2.a28c6330.chunk.js.map",
-    "static/js/3.78aceada.chunk.js": "/CiccioTecchio.io/static/js/3.78aceada.chunk.js",
-    "static/js/3.78aceada.chunk.js.map": "/CiccioTecchio.io/static/js/3.78aceada.chunk.js.map",
-    "index.html": "/CiccioTecchio.io/index.html",
-    "static/css/2.c4e73993.chunk.css.map": "/CiccioTecchio.io/static/css/2.c4e73993.chunk.css.map",
-    "static/css/main.a655c800.chunk.css.map": "/CiccioTecchio.io/static/css/main.a655c800.chunk.css.map",
-    "static/js/2.a28c6330.chunk.js.LICENSE.txt": "/CiccioTecchio.io/static/js/2.a28c6330.chunk.js.LICENSE.txt",
-    "static/media/getFetch.cjs": "/CiccioTecchio.io/static/media/getFetch.5fde86e3.cjs",
-    "static/media/propic.b432c22b.png": "/CiccioTecchio.io/static/media/propic.b432c22b.png"
+    "main.css": "/static/css/main.a655c800.chunk.css",
+    "main.js": "/static/js/main.f85e28d6.chunk.js",
+    "main.js.map": "/static/js/main.f85e28d6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c21b718e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c21b718e.js.map",
+    "static/css/2.c4e73993.chunk.css": "/static/css/2.c4e73993.chunk.css",
+    "static/js/2.e7a7c61e.chunk.js": "/static/js/2.e7a7c61e.chunk.js",
+    "static/js/2.e7a7c61e.chunk.js.map": "/static/js/2.e7a7c61e.chunk.js.map",
+    "static/js/3.e4f2f9fa.chunk.js": "/static/js/3.e4f2f9fa.chunk.js",
+    "static/js/3.e4f2f9fa.chunk.js.map": "/static/js/3.e4f2f9fa.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c4e73993.chunk.css.map": "/static/css/2.c4e73993.chunk.css.map",
+    "static/css/main.a655c800.chunk.css.map": "/static/css/main.a655c800.chunk.css.map",
+    "static/js/2.e7a7c61e.chunk.js.LICENSE.txt": "/static/js/2.e7a7c61e.chunk.js.LICENSE.txt",
+    "static/media/getFetch.cjs": "/static/media/getFetch.5fde86e3.cjs",
+    "static/media/propic.b432c22b.png": "/static/media/propic.b432c22b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.481dd5ff.js",
+    "static/js/runtime-main.c21b718e.js",
     "static/css/2.c4e73993.chunk.css",
-    "static/js/2.a28c6330.chunk.js",
+    "static/js/2.e7a7c61e.chunk.js",
     "static/css/main.a655c800.chunk.css",
-    "static/js/main.56e7016c.chunk.js"
+    "static/js/main.f85e28d6.chunk.js"
   ]
 }
