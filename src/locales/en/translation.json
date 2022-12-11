@@ -1,7 +1,7 @@
 {
-  "welcome.title": "Probably if you are here it means that either you know me and want to see how I made the site, or you want to get to know me",
-  "welcome.subtitle": "Well, here's what you need to know ...",
-  "welcome.aboutme": "<p>I am a front-end developer who has been working at NTT DATA in Naples since June 2020.</p><p>Before I started working I studied Computer Science at the University of Salerno where I obtained a Master's degree. </p><p>Currently the topics I'm most interested in are Agile methodologies, in particular the Scrum framework, and front-end development, trying not to focus too much on the code but also trying to take care of the UI and UX of what I develop.</p><p>My passions are going to the gym to work out 🏋️ and riding 🏍💨.</p>",
+  "welcome.title": "Probably, if you are here it means that you know me and want to see how I made the site. Or, you want to get to know me.",
+  "welcome.subtitle": "Good! Here's what you need to know...",
+  "welcome.aboutme": "<p>I am a front-end developer.</p><p>Since June 2020, I have been working at NTT DATA in the Naples office.</p><p>In July of the same year, I received my Master's degree in Computer Science from the Università degli Studi di Salerno.</p><p>Currently, the topics I am most interested in are Agile methodologies, in particular the Scrum framework, and front-end development.</p><p>When I develop, I always try to pay attention not only to the code but also to the UI and UX.</p><p>My passions are going to the gym to work out 🏋️ and riding motorbikes 🏍💨.</p>",
   "header.title": "Francesco Vicidomini",
   "header.download.cv": "Download CV",
   "skills.soft": "Soft skills",

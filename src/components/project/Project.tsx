@@ -21,14 +21,14 @@ function Project(){
   
   const projectList:Array<IProject> = [
     {key: "PAB", title:t("project.pab.title"), description:t("project.pab.desc")},
-    {key: "evocinema", title:t("project.evocinema.title"), description:t("project.evocinema.desc"), repository:t("project.evocinema.repo")},
-    {key: "britishfanta", title:t("project.britishFanta.title"), description:t("project.britishFanta.desc"), repository: t("project.britishFanta.repo")},
-    {key: "n-body", title:t("project.n-body.title"), description:t("project.n-body.desc"), repository: t("project.n-body.repo")},
-    {key: "sharerasmus", title:t("project.sharerasmus.title"), description:t("project.sharerasmus.desc"), repository: t("project.sharerasmus.repo")},
+    {key: "tesi-magistrale", title:t("project.thesis2.title"), description:t("project.thesis2.desc"), repository: t("project.thesis2.repo")},
     {key: "yaspl", title:t("project.yaspl.title"), description:t("project.yaspl.desc"), repository: t("project.yaspl.repo")},
+    {key: "sharerasmus", title:t("project.sharerasmus.title"), description:t("project.sharerasmus.desc"), repository: t("project.sharerasmus.repo")},
     {key: "carevent", title:t("project.carevent.title"), description:t("project.carevent.desc")},
-    {key: "tesi-magistrale", title:t("project.thesis1.title"), description:t("project.thesis1.desc"), repository: t("project.thesis1.repo")},
-    {key: "tesi-triennale", title:t("project.thesis2.title"), description:t("project.thesis2.desc"), repository: t("project.thesis2.repo")},
+    {key: "n-body", title:t("project.n-body.title"), description:t("project.n-body.desc"), repository: t("project.n-body.repo")},
+    {key: "britishfanta", title:t("project.britishFanta.title"), description:t("project.britishFanta.desc"), repository: t("project.britishFanta.repo")},
+    {key: "evocinema", title:t("project.evocinema.title"), description:t("project.evocinema.desc"), repository:t("project.evocinema.repo")},
+    {key: "tesi-triennale", title:t("project.thesis1.title"), description:t("project.thesis1.desc"), repository: t("project.thesis1.repo")},
     {key: "cicciotecchio-io", title:t("project.cicciotecchio-io.title"), description: t("project.cicciotecchio-io.desc"), repository: t("project.cicciotecchio-io.repo")},
     {key: "unisa-latex", title:t("project.unisa-latex.title"), description: t("project.unisa-latex.desc"), repository: t("project.unisa-latex.repo")},
   ];
@@ -72,7 +72,7 @@ function Project(){
 
 function writeProjectCard(project:IProject){
   return <Col md={5}>
-    <Card className='mt-3 project-card'>
+    <Card className='mt-3 h-100'>
       <Card.Body className='text-center'>
         <Card.Title><b>{project.title}</b></Card.Title>
         <Card.Text dangerouslySetInnerHTML={{__html:project.description}} ></Card.Text>
