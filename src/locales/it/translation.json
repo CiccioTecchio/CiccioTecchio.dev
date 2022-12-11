@@ -1,7 +1,7 @@
 {
-  "welcome.title": "Probabilmente se sei qui vuol dire che o mi conosci e vuoi vedere come ho fatto il sito, o vuoi conoscermi",
-  "welcome.subtitle": "Bene, ecco quello che c'è da sapere ...",
-  "welcome.aboutme": "<p>Sono uno sviluppatore front-end che lavoro in NTT DATA a Napoli dal giugno 2020.</p><p>Prima di cominciare a lavorare ho studiato Informatica presso l'Università degli Studi di Salerno dove ho conseguito Laurea Magistrale.</p><p>Attualmente gli argomenti che mi interessano di più sono le metodologie Agile, in particolare il framework Scrum, e lo sviluppo front-end cercando di non fossilizzarmi troppo sul codice ma cercando di curare anche la UI e la UX di ciò che sviluppo.</p><p>Le mie passioni sono andare in palestra ad allenarmi 🏋️ e andare in moto 🏍💨.</p>",
+  "welcome.title": "Probabilmente, se sei qui vuol dire che mi conosci e vuoi vedere come ho fatto il sito. Oppure, vuoi conoscermi.",
+  "welcome.subtitle": "Bene! Ecco quello che c'è da sapere...",
+  "welcome.aboutme": "<p>Sono uno sviluppatore front-end.</p><p>Dal giugno 2020 lavoro presso NTT DATA nella sede di Napoli.</p><p>Nel luglio dello stesso anno ho conseguito la laurea Magistrale in Informatica presso l'Università degli Studi di Salerno.</p><p>Attualmente gli argomenti che mi interessano maggiormente sono le metodologie Agile, in particolare il framework Scrum, e lo sviluppo front-end.</p><p>Quando sviluppo, cerco sempre di prestare la mia attenzione non solo al codice ma anche alla UI e alla UX.</p><p>Le mie passioni sono andare in palestra ad allenarmi 🏋️ e andare in moto 🏍💨.</p>",
   "header.title": "Francesco Vicidomini",
   "header.download.cv": "Download CV",
   "skills.soft": "Soft skills",
