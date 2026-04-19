@@ -16,6 +16,28 @@ body {
     linear-gradient(180deg, #f8fafc 0%, #eef4ff 100%);
 }
 
+a {
+  color: #0369a1;
+  text-decoration: underline;
+  text-decoration-color: rgba(3, 105, 161, 0.28);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+  transition:
+    color 180ms ease,
+    text-decoration-color 180ms ease;
+}
+
+a:hover {
+  color: #0c4a6e;
+  text-decoration-color: rgba(12, 74, 110, 0.45);
+}
+
+a:focus-visible {
+  outline: 2px solid rgba(14, 165, 233, 0.4);
+  outline-offset: 3px;
+  border-radius: 0.25rem;
+}
+
 #root {
   min-height: 100vh;
 }

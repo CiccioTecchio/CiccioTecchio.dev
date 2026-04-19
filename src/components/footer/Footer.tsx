@@ -12,7 +12,7 @@ export default function Footer() {
   const linkedInProfile = urls.find(({ name }) => name === "LinkedIn");
 
   return (
-    <footer className="relative z-10 px-4 pb-5 pt-8 sm:px-6 sm:pb-8">
+    <footer className="relative z-10 px-4 pb-5 sm:px-6 sm:pb-8">
       <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-center gap-3 rounded-[2rem] border border-slate-900/10 bg-slate-950 px-4 py-4 shadow-[0_18px_60px_rgba(15,23,42,0.16)] sm:px-6">
         {githubProfile ? (
           <a
