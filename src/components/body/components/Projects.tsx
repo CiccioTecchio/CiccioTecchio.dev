@@ -48,10 +48,24 @@ const stepIcons = {
 export default function Projects({ projects }: ProjectsProps) {
   const [activeStep, setActiveStep] = useState(0);
 
+  const workProjects: Project[] = [];
+  const personalProjects: Project[] = [];
+  const universityProjects: Project[] = [];
+
+  projects.forEach((project) => {
+    if (project.committedBy === "My self") {
+      personalProjects.push(project);
+    } else if (project.committedBy === "University") {
+      universityProjects.push(project);
+    } else {
+      workProjects.push(project);
+    }
+  });
+
   const groupedProjects = [
-    projects.filter(({ committedBy }) => committedBy !== "My self" && committedBy !== "University"),
-    projects.filter(({ committedBy }) => committedBy === "My self"),
-    projects.filter(({ committedBy }) => committedBy === "University"),
+    workProjects,
+    personalProjects,
+    universityProjects,
   ];
 
   const visibleProjects = groupedProjects[activeStep] ?? [];
