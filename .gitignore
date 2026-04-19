@@ -40,3 +40,4 @@ packages/react-devtools-scheduling-profiler/dist
 package-lock.json
 tsconfig.node.tsbuildinfo
 tsconfig.tsbuildinfo
+dist
