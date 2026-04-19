@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background:
+    linear-gradient(180deg, #f8fafc 0%, #eef4ff 100%);
+}
+
 body {
+  min-width: 320px;
+  margin: 0;
+  color: #0f172a;
   font-family: "Roboto", sans-serif;
+  background:
+    linear-gradient(180deg, #f8fafc 0%, #eef4ff 100%);
+}
+
+#root {
+  min-height: 100vh;
 }

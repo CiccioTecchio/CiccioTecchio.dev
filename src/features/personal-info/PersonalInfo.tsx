@@ -1,4 +1,4 @@
-import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 type PersonaInfoState = {
   name: string;
@@ -25,7 +25,7 @@ const initialState: PersonaInfoState = {
     { url: "https://cicciotecchio.dev/", name: "Personal website" },
     { url: "https://github.com/CiccioTecchio", name: "GitHub" },
     {
-      url: "https://www.linkedin.com/in/francesco-vicidomini-374aa813a/",
+      url: "https://www.linkedin.com/in/francesco-vicidomini/",
       name: "LinkedIn",
     },
   ],
