@@ -12,6 +12,8 @@ type PersonaInfoState = {
     type: "Bachelor" | "Master";
     vote: number | "110L";
     universityName: string;
+    graduationYear: number;
+    specialization?: string;
   }[];
 };
 
@@ -35,12 +37,15 @@ const initialState: PersonaInfoState = {
       type: "Master",
       vote: "110L",
       universityName: "Università degli Studi di Salerno",
+      graduationYear: 2020,
+      specialization: "Software Management",
     },
     {
       degreeName: "Computer Science",
       type: "Bachelor",
       vote: 94,
       universityName: "Università degli Studi di Salerno",
+      graduationYear: 2017,
     },
   ],
 };

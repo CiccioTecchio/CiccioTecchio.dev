@@ -12,15 +12,15 @@ const initialState: JobState[] = [
     companyName: "Engineering",
     description:
       "Software Development Specialist focused on cybersecurity applications, Angular front-end architecture, RxJS, NgRx, CI/CD pipelines, Docker deployments, and international research projects.",
-    startDate: "2023-07",
+    startDate: "07-2023",
     endDate: "Present",
   },
   {
     companyName: "NTT Data",
     description:
       "Software Engineer working on Angular applications for the Italian Public Administration, scalable front-end architectures, legacy improvements, and Agile delivery.",
-    startDate: "2020-06",
-    endDate: "2023-07",
+    startDate: "06-2020",
+    endDate: "07-2023",
   },
 ];
 

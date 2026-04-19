@@ -38,6 +38,15 @@ const initialState: ProjectState[] = [
     url: "",
   },
   {
+    name: "Knoxly",
+    description:
+      "Master's thesis project focused on a machine learning model able to detect when a person is talking about sensitive topics such as health information, travel details, and financial conditions.",
+    startDate: "2020",
+    endDate: "2020",
+    committedBy: "University",
+    url: "https://github.com/CiccioTecchio/IA-Knoxly",
+  },
+  {
     name: "ShareErasmus",
     description:
       "University Erasmus platform developed as project manager of a team of 8 people.",
@@ -47,6 +56,15 @@ const initialState: ProjectState[] = [
     url: "https://github.com/CiccioTecchio/SharErasmus",
   },
   {
+    name: "YASPL",
+    description:
+      "YASPL stands for Yet Another Simple Programming Language. This project is an implementation of a programming language featuring a lexical analyzer generated with JFlex, a parser generated with JavaCup, semantic analysis handled through the Visitor pattern, and C code generation built on the same visitor-based approach.",
+    startDate: "2019",
+    endDate: "2020",
+    committedBy: "University",
+    url: "https://github.com/CiccioTecchio/YASPL3",
+  },
+  {
     name: "N-body Simulation",
     description:
       "University parallel simulation project with AWS cluster configuration and performance testing.",
@@ -54,6 +72,16 @@ const initialState: ProjectState[] = [
     endDate: "2018",
     committedBy: "University",
     url: "https://github.com/CiccioTecchio/n-Body_MPI",
+  },
+
+  {
+    name: "SimRank",
+    description:
+      "Bachelor's thesis project based on the implementation of the SimRank algorithm to estimate how similar two people are starting from their graph of friendships and connections.",
+    startDate: "2017",
+    endDate: "2017",
+    committedBy: "University",
+    url: "https://github.com/CiccioTecchio/simrankJava",
   },
 ];
 
