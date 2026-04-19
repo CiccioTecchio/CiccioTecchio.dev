@@ -6,10 +6,30 @@ type ProjectState = {
   startDate: string;
   endDate: string;
   committedBy: string; //chi lo ha commissionato l'azienda ACME s.p.a o l'Università
-  url: string;
+  url?: string;
+  repoUrl?: string;
 };
 
 const initialState: ProjectState[] = [
+  {
+    name: "Cicciotecchio.dev",
+    description:
+      "Personal project behind this website, used to experiment and improve my skills on technologies I do not know yet, in this case React.",
+    startDate: "2026",
+    endDate: "2026",
+    committedBy: "My self",
+    url: "https://cicciotecchio.dev",
+    repoUrl: "https://github.com/CiccioTecchio/CiccioTecchio.dev",
+  },
+  {
+    name: "My Awesome Coin Collection",
+    description:
+      'Educational app created for a seminar I held in the "Web Technologies" course at the Università degli Studi di Salerno.',
+    startDate: "2026",
+    endDate: "2026",
+    committedBy: "My self",
+    repoUrl: "https://github.com/CiccioTecchio/My-Aws-Coins-Collections",
+  },
   {
     name: "AVANT",
     description:
@@ -44,7 +64,7 @@ const initialState: ProjectState[] = [
     startDate: "2020",
     endDate: "2020",
     committedBy: "University",
-    url: "https://github.com/CiccioTecchio/IA-Knoxly",
+    repoUrl: "https://github.com/CiccioTecchio/IA-Knoxly",
   },
   {
     name: "ShareErasmus",
@@ -53,7 +73,7 @@ const initialState: ProjectState[] = [
     startDate: "2018",
     endDate: "2019",
     committedBy: "University",
-    url: "https://github.com/CiccioTecchio/SharErasmus",
+    repoUrl: "https://github.com/CiccioTecchio/SharErasmus",
   },
   {
     name: "YASPL",
@@ -62,7 +82,7 @@ const initialState: ProjectState[] = [
     startDate: "2019",
     endDate: "2020",
     committedBy: "University",
-    url: "https://github.com/CiccioTecchio/YASPL3",
+    repoUrl: "https://github.com/CiccioTecchio/YASPL3",
   },
   {
     name: "N-body Simulation",
@@ -71,7 +91,7 @@ const initialState: ProjectState[] = [
     startDate: "2018",
     endDate: "2018",
     committedBy: "University",
-    url: "https://github.com/CiccioTecchio/n-Body_MPI",
+    repoUrl: "https://github.com/CiccioTecchio/n-Body_MPI",
   },
 
   {
@@ -81,7 +101,7 @@ const initialState: ProjectState[] = [
     startDate: "2017",
     endDate: "2017",
     committedBy: "University",
-    url: "https://github.com/CiccioTecchio/simrankJava",
+    repoUrl: "https://github.com/CiccioTecchio/simrankJava",
   },
 ];
 
