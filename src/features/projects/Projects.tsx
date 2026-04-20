@@ -28,6 +28,7 @@ const initialState: ProjectState[] = [
     startDate: "2026",
     endDate: "2026",
     committedBy: "My self",
+    url: "https://cicciotecchio.github.io/My-Aws-Coins-Collections/",
     repoUrl: "https://github.com/CiccioTecchio/My-Aws-Coins-Collections",
   },
   {
